@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css2?family=Kalam&family=Orbitron:wght@400;700&family=Roboto:wght@300;500&display=swap');
+
+html {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: url('./bg_bggenerator_com.jpg');
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 50px;
+    align-items: center;
+    font-size: 44px;
+    height: 100vh;
+    font-family: Orbitron, sans-serif;
+    font-weight: 700;
+    text-align: center;
+}
+
+.title{
+    padding: 10px;
+    background-color: rgba(240, 248, 255, 0.298);
+    border-radius: 20px;
+    color: rgba(68, 68, 68, 0.844);
+}
+
+button{
+    font-family: Orbitron, sans-serif;
+    font-weight: 700;
+    font-size: 24px;
+    cursor: pointer;
+    outline: none;
+}
+
+.blured {
+    filter: blur(10px);
+    cursor: pointer;
+}
+
+.joke-container{
+    margin: 0% 10%;
+    padding: 40px;
+    text-align: center;
+    background-color: rgba(240, 248, 255, 0.298);
+    border-radius: 20px;
+    color: rgba(68, 68, 68, 0.844);
+}
+
+@media screen and (max-width:800px) {
+    body {
+        font-size: 18px;
+    }
+    button {
+        font-size: 12px
+    }
+}
